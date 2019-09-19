@@ -1,12 +1,16 @@
 package com.John.Entity;
-
+/**
+ * author:Johnson Hartanto
+ * NRP:1772017
+ */
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Item {
     private String name;
     private int id;
     private Category category;
-    private String exDate;
+    private LocalDate exDate;
 
     public String getName() {
         return name;
@@ -32,11 +36,11 @@ public class Item {
         this.category = category;
     }
 
-    public String getExDate() {
+    public LocalDate getExDate() {
         return exDate;
     }
 
-    public void setExDate(String exDate) {
+    public void setExDate(LocalDate exDate) {
         this.exDate = exDate;
     }
 }

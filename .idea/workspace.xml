@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/John/Controller/MainFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/John/Entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/John/Entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/John/Controller/CategoryFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/John/Controller/MainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/John/Controller/MainFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/John/Entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/John/Entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/John/Entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/John/Entity/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/John/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/John/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/John/View/CategoryMan.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/John/View/CategoryMan.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/John/View/MainForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/John/View/MainForm.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -72,8 +73,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/John/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/John/Entity/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#460#461#0" expanded="true" />
@@ -98,7 +102,7 @@
                 <element signature="e#797#798#0" expanded="true" />
                 <element signature="e#828#829#0" expanded="true" />
                 <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,21 +110,23 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/John/View/MainForm.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+            <state relative-caret-position="205">
+              <caret line="79" column="102" selection-start-line="79" selection-start-column="102" selection-end-line="79" selection-end-column="102" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/John/Controller/MainFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4407#4408#0" expanded="true" />
+                <element signature="e#4438#4439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,25 +135,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/John/Entity/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding>
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,12 +146,24 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/John/View/CategoryMan.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/John/Controller/CategoryFormController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-544">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -185,20 +188,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/John/View/Category Management.fxml" />
-        <option value="$PROJECT_DIR$/src/com/John/Main.java" />
         <option value="$PROJECT_DIR$/src/com/John/View/MainForm.fxml" />
+        <option value="$PROJECT_DIR$/src/com/John/View/CategoryMan.fxml" />
         <option value="$PROJECT_DIR$/src/com/John/Entity/Category.java" />
-        <option value="$PROJECT_DIR$/src/com/John/Entity/Item.java" />
+        <option value="$PROJECT_DIR$/src/com/John/Main.java" />
         <option value="$PROJECT_DIR$/src/com/John/Controller/MainFormController.java" />
+        <option value="$PROJECT_DIR$/src/com/John/Entity/Item.java" />
+        <option value="$PROJECT_DIR$/src/com/John/Controller/CategoryFormController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -209,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,8 +249,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +264,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568824742420" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568912562287" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="F:/Semester 5/PBO 2/pb02_w03" />
     <property name="project.structure.last.edited" value="Project" />
@@ -310,7 +314,10 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -318,6 +325,9 @@
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <properties />
       <listeners />
       <method v="2">
@@ -330,7 +340,7 @@
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
@@ -367,10 +377,7 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -378,9 +385,6 @@
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
       <properties />
       <listeners />
       <method v="2">
@@ -389,7 +393,7 @@
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
@@ -410,17 +414,18 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1568712379624" duration="1679000" />
       <workItem from="1568811931413" duration="8687000" />
+      <workItem from="1568903486369" duration="8881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11668000" />
+    <option name="totallyTimeSpent" value="20549000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.25716442" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.16868381" />
       <window_info id="Structure" order="1" weight="0.24962293" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -429,7 +434,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32824427" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32718894" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -473,50 +478,36 @@
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/com/John/View/CategoryManagement.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/com/John/View/CategoryMan.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/John/View/MainForm.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="79" column="102" selection-start-line="79" selection-start-column="102" selection-end-line="79" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/John/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/John/View/CategoryMan.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/John/Entity/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/John/Entity/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
@@ -532,23 +523,37 @@
             <element signature="e#797#798#0" expanded="true" />
             <element signature="e#828#829#0" expanded="true" />
             <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/John/View/MainForm.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="79" column="40" lean-forward="true" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/John/Controller/MainFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4407#4408#0" expanded="true" />
+            <element signature="e#4438#4439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/John/Entity/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/John/Controller/CategoryFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

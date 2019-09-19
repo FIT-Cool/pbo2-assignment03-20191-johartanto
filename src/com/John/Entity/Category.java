@@ -1,5 +1,8 @@
 package com.John.Entity;
-
+/**
+ * author:Johnson Hartanto
+ * NRP:1772017
+ */
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;

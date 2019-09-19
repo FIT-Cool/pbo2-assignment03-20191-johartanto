@@ -1,5 +1,8 @@
 package com.John;
-
+/**
+ * author:Johnson Hartanto
+ * NRP:1772017
+ */
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
