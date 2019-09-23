@@ -25,7 +25,10 @@
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-              <MenuItem mnemonicParsing="false" onAction="#categoryAct" text="Show Category Management" />
+              <MenuItem mnemonicParsing="false" onAction="#categoryAct" text="Show Category Management">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="F11" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
                   <MenuItem mnemonicParsing="false" onAction="#closeAct" text="Close">
                      <accelerator>
                         <KeyCodeCombination alt="DOWN" code="X" control="UP" meta="UP" shift="DOWN" shortcut="UP" />

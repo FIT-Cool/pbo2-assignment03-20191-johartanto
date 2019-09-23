@@ -139,22 +139,32 @@ public class MainFormController implements Initializable {
 
     public void updateAct(ActionEvent actionEvent) {
         Alert alert=new Alert(Alert.AlertType.ERROR);
-
-            if (txtId.getText().isEmpty() || txtName.getText().isEmpty() || comboCat.getSelectionModel().getSelectedIndex()==-1 || exDate.getEditor().getText().isEmpty()){
+        boolean found=false;
+        for (Item i:this.getItems()){
+            if (i.getName().equals(txtName.getText())){
+                found=true;
+            }
+        }
+        if (found){
+            alert.setContentText("Duplicate item name");
+            alert.setTitle("Error");
+            alert.show();
+        }
+        else {
+            if (txtId.getText().isEmpty() || txtName.getText().isEmpty() || comboCat.getSelectionModel().getSelectedIndex() == -1 || exDate.getEditor().getText().isEmpty()) {
                 alert.setTitle("Error");
                 alert.setContentText("Please fill name/id/category/date");
                 alert.show();
-            }
-            else {
-                int index=tableDepartment.getSelectionModel().getSelectedIndex();
-                Item i=tableDepartment.getSelectionModel().getSelectedItem();
+            } else {
+                int index = tableDepartment.getSelectionModel().getSelectedIndex();
+                Item i = tableDepartment.getSelectionModel().getSelectedItem();
                 i.setId(Integer.valueOf(txtId.getText()));
                 i.setName(txtName.getText());
                 i.setCategory(comboCat.getSelectionModel().getSelectedItem());
                 i.setExDate(exDate.getValue());
-                this.getItems().set(index,i);
+                this.getItems().set(index, i);
             }
-
+        }
         txtId.clear();
         txtName.clear();
         comboCat.getSelectionModel().select(-1);
